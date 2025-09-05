@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CalFast v4 — Weight & Fat Loss Coach</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🥗 CalFast v4</h1>
+    <p>Personalized calories, macros, fasting, weight & body-fat coach</p>
+  </header>
+
+  <main class="container">
+    <section class="card" id="quick-add">
+      <h2>Quick Add Meal</h2>
+      <div class="row">
+        <input id="meal-name" placeholder="Meal name (e.g. roti, samosa, veg fried noodles)" />
+        <input id="meal-qty" type="number" step="0.1" placeholder="Qty (servings or per-unit)" />
+        <input id="meal-time" type="time" />
+        <button id="add-meal-btn">Add</button>
+      </div>
+      <small class="muted">Type partial names for suggestions (uses foods.json)</small>
+    </section>
+
+    <section class="card" id="today-summary">
+      <h2>Today's Summary</h2>
+      <div id="totals">
+        <p>Calories: <strong id="calories-total">0</strong> / <strong id="calories-goal">1800</strong></p>
+        <p>Protein: <strong id="protein-total">0</strong> g</p>
+        <p>Carbs: <strong id="carbs-total">0</strong> g</p>
+        <p>Fat: <strong id="fat-total">0</strong> g</p>
+      </div>
+      <ul id="meals-list"></ul>
+    </section>
+
+    <section class="card" id="fasting">
+      <h2>Intermittent Fasting</h2>
+      <p>Current Fast: <span id="fasting-timer">00:00</span> (hh:mm)</p>
+      <div class="row">
+        <button id="start-fast-btn">Start Fast</button>
+        <button id="end-fast-btn">End Fast</button>
+      </div>
+      <p>Last fast: <span id="last-fast">0</span> hrs • Goal: <span id="fasting-goal">16</span> hrs</p>
+    </section>
+
+    <section class="card" id="weight-section">
+      <h2>Weight & Body</h2>
+      <div class="row">
+        <input id="weight-input" type="number" step="0.1" placeholder="Weight (kg)" />
+        <input id="height-input" type="number" step="0.1" placeholder="Height (cm)" />
+        <select id="gender-select">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <button id="log-weight-btn">Log Weight</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <input id="neck-input" type="number" step="0.1" placeholder="Neck (cm) — optional" />
+        <input id="waist-input" type="number" step="0.1" placeholder="Waist (cm) — optional" />
+        <input id="hip-input" type="number" step="0.1" placeholder="Hip (cm) — females only, optional" />
+        <button id="calc-bf-btn">Calc Body Fat</button>
+      </div>
+      <p>BMI: <strong id="bmi-val">—</strong> • Category: <strong id="bmi-cat">—</strong></p>
+      <p>BMR: <strong id="bmr-val">—</strong> kcal/day</p>
+      <p>Est. Body Fat %: <strong id="bf-val">—</strong> • Fat mass: <strong id="fat-mass">—</strong> kg • LBM: <strong id="lbm">—</strong> kg</p>
+      <div class="row">
+        <input id="target-weight" type="number" step="0.1" placeholder="Target weight (kg)" />
+        <input id="target-date" type="date" />
+        <button id="set-target-btn">Set Goal & Calc Deficit</button>
+      </div>
+      <p id="deficit-msg" class="muted"></p>
+    </section>
+
+    <section class="card" id="charts-section">
+      <h2>Progress Charts</h2>
+      <canvas id="weightChart" style="height:220px"></canvas>
+      <canvas id="calorieChart" style="height:220px"></canvas>
+      <canvas id="bfChart" style="height:220px"></canvas>
+    </section>
+
+    <section class="card" id="coach">
+      <h2>Coach Recommendations</h2>
+      <ul id="recommendations"></ul>
+    </section>
+
+    <section class="card" id="data-actions">
+      <h2>Data</h2>
+      <div class="row">
+        <button id="export-btn">Export JSON</button>
+        <button id="import-btn">Import JSON</button>
+        <button id="reset-btn" style="background:#f44336">Reset All</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CalFast v4 — install via Safari & Add to Home Screen</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

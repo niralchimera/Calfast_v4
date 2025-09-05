@@ -1,0 +1,440 @@
+{
+  "roti": {
+    "calories": 120,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 3
+  },
+  "chapati": {
+    "calories": 120,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 3
+  },
+  "rice": {
+    "calories": 130,
+    "protein": 2.5,
+    "carbs": 28,
+    "fat": 0.3
+  },
+  "brown rice": {
+    "calories": 111,
+    "protein": 2.6,
+    "carbs": 23,
+    "fat": 0.9
+  },
+  "paratha": {
+    "calories": 240,
+    "protein": 6,
+    "carbs": 36,
+    "fat": 8
+  },
+  "aloo paratha": {
+    "calories": 310,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 12
+  },
+  "poori": {
+    "calories": 150,
+    "protein": 3,
+    "carbs": 16,
+    "fat": 9
+  },
+  "upma": {
+    "calories": 110,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 3
+  },
+  "poha": {
+    "calories": 130,
+    "protein": 3,
+    "carbs": 24,
+    "fat": 2.5
+  },
+  "dal": {
+    "calories": 120,
+    "protein": 9,
+    "carbs": 20,
+    "fat": 1
+  },
+  "chole": {
+    "calories": 180,
+    "protein": 9,
+    "carbs": 27,
+    "fat": 5
+  },
+  "rajma masala": {
+    "calories": 140,
+    "protein": 9,
+    "carbs": 22,
+    "fat": 2
+  },
+  "sambar": {
+    "calories": 70,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 1
+  },
+  "mixed vegetable sabji": {
+    "calories": 120,
+    "protein": 3,
+    "carbs": 15,
+    "fat": 6
+  },
+  "paneer sabji": {
+    "calories": 220,
+    "protein": 10,
+    "carbs": 8,
+    "fat": 18
+  },
+  "paneer butter masala": {
+    "calories": 350,
+    "protein": 14,
+    "carbs": 18,
+    "fat": 24
+  },
+  "aloo sabji": {
+    "calories": 140,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 6
+  },
+  "bhindi fry": {
+    "calories": 120,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 7
+  },
+  "baingan bharta": {
+    "calories": 100,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 6
+  },
+  "palak paneer": {
+    "calories": 190,
+    "protein": 11,
+    "carbs": 8,
+    "fat": 14
+  },
+  "paneer": {
+    "calories": 265,
+    "protein": 18,
+    "carbs": 6,
+    "fat": 20
+  },
+  "chicken breast": {
+    "calories": 165,
+    "protein": 31,
+    "carbs": 0,
+    "fat": 3.5
+  },
+  "fish": {
+    "calories": 206,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 12
+  },
+  "egg": {
+    "calories": 78,
+    "protein": 6,
+    "carbs": 0.6,
+    "fat": 5
+  },
+  "omelette": {
+    "calories": 180,
+    "protein": 12,
+    "carbs": 1,
+    "fat": 15
+  },
+  "egg white omelette": {
+    "calories": 70,
+    "protein": 14,
+    "carbs": 1,
+    "fat": 0
+  },
+  "egg bhurji": {
+    "calories": 200,
+    "protein": 12,
+    "carbs": 4,
+    "fat": 16
+  },
+  "channa salad": {
+    "calories": 150,
+    "protein": 8,
+    "carbs": 25,
+    "fat": 2
+  },
+  "corn salad": {
+    "calories": 120,
+    "protein": 4,
+    "carbs": 24,
+    "fat": 2
+  },
+  "peanut salad": {
+    "calories": 180,
+    "protein": 9,
+    "carbs": 15,
+    "fat": 9
+  },
+  "sprouts salad": {
+    "calories": 100,
+    "protein": 7,
+    "carbs": 17,
+    "fat": 1
+  },
+  "curd": {
+    "calories": 61,
+    "protein": 3.5,
+    "carbs": 4.5,
+    "fat": 3
+  },
+  "milk": {
+    "calories": 64,
+    "protein": 3.4,
+    "carbs": 5,
+    "fat": 3
+  },
+  "whey protein": {
+    "calories": 120,
+    "protein": 24,
+    "carbs": 2,
+    "fat": 1
+  },
+  "coffee": {
+    "calories": 2,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  "tea": {
+    "calories": 30,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 1
+  },
+  "banana": {
+    "calories": 105,
+    "protein": 1,
+    "carbs": 27,
+    "fat": 0.3
+  },
+  "apple": {
+    "calories": 95,
+    "protein": 0.5,
+    "carbs": 25,
+    "fat": 0.3
+  },
+  "almonds": {
+    "calories": 579,
+    "protein": 21,
+    "carbs": 22,
+    "fat": 50
+  },
+  "peanuts": {
+    "calories": 567,
+    "protein": 25,
+    "carbs": 16,
+    "fat": 49
+  },
+  "olive oil": {
+    "calories": 90,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 10
+  },
+  "ghee": {
+    "calories": 90,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 10
+  },
+  "sugar": {
+    "calories": 20,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0
+  },
+  "biscuits": {
+    "calories": 24,
+    "protein": 0.4,
+    "carbs": 4.5,
+    "fat": 0.8
+  },
+  "north indian veg thali": {
+    "calories": 750,
+    "protein": 22,
+    "carbs": 110,
+    "fat": 22
+  },
+  "north indian nonveg thali": {
+    "calories": 850,
+    "protein": 40,
+    "carbs": 100,
+    "fat": 30
+  },
+  "south indian veg thali": {
+    "calories": 700,
+    "protein": 18,
+    "carbs": 115,
+    "fat": 18
+  },
+  "south indian nonveg thali": {
+    "calories": 800,
+    "protein": 35,
+    "carbs": 105,
+    "fat": 28
+  },
+  "idli with sambar": {
+    "calories": 180,
+    "protein": 7,
+    "carbs": 32,
+    "fat": 2
+  },
+  "dosa with chutney": {
+    "calories": 250,
+    "protein": 7,
+    "carbs": 40,
+    "fat": 8
+  },
+  "rajma chawal": {
+    "calories": 350,
+    "protein": 13,
+    "carbs": 65,
+    "fat": 5
+  },
+  "chole bhature": {
+    "calories": 450,
+    "protein": 14,
+    "carbs": 60,
+    "fat": 16
+  },
+  "egg curry with roti": {
+    "calories": 400,
+    "protein": 20,
+    "carbs": 35,
+    "fat": 18
+  },
+  "chicken curry with rice": {
+    "calories": 450,
+    "protein": 28,
+    "carbs": 40,
+    "fat": 18
+  },
+  "biryani": {
+    "calories": 550,
+    "protein": 25,
+    "carbs": 65,
+    "fat": 18
+  },
+  "veg pulao with raita": {
+    "calories": 400,
+    "protein": 12,
+    "carbs": 65,
+    "fat": 10
+  },
+  "samosa": {
+    "calories": 250,
+    "protein": 5,
+    "carbs": 30,
+    "fat": 12
+  },
+  "pakora": {
+    "calories": 150,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 8
+  },
+  "pani puri": {
+    "calories": 330,
+    "protein": 6,
+    "carbs": 45,
+    "fat": 14
+  },
+  "bhel puri": {
+    "calories": 280,
+    "protein": 6,
+    "carbs": 50,
+    "fat": 8
+  },
+  "sev puri": {
+    "calories": 350,
+    "protein": 7,
+    "carbs": 55,
+    "fat": 12
+  },
+  "pav bhaji": {
+    "calories": 400,
+    "protein": 9,
+    "carbs": 50,
+    "fat": 16
+  },
+  "veg fried rice": {
+    "calories": 320,
+    "protein": 7,
+    "carbs": 55,
+    "fat": 9
+  },
+  "veg fried noodles": {
+    "calories": 350,
+    "protein": 8,
+    "carbs": 60,
+    "fat": 10
+  },
+  "chicken fried rice": {
+    "calories": 380,
+    "protein": 18,
+    "carbs": 55,
+    "fat": 10
+  },
+  "chicken fried noodles": {
+    "calories": 400,
+    "protein": 20,
+    "carbs": 58,
+    "fat": 12
+  },
+  "veg sandwich": {
+    "calories": 250,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 8
+  },
+  "egg sandwich": {
+    "calories": 300,
+    "protein": 14,
+    "carbs": 32,
+    "fat": 12
+  },
+  "chicken sandwich": {
+    "calories": 350,
+    "protein": 20,
+    "carbs": 35,
+    "fat": 12
+  },
+  "veg burger": {
+    "calories": 400,
+    "protein": 12,
+    "carbs": 45,
+    "fat": 15
+  },
+  "chicken burger": {
+    "calories": 450,
+    "protein": 25,
+    "carbs": 40,
+    "fat": 18
+  },
+  "pizza slice veg": {
+    "calories": 285,
+    "protein": 12,
+    "carbs": 36,
+    "fat": 10
+  },
+  "pizza slice nonveg": {
+    "calories": 320,
+    "protein": 16,
+    "carbs": 34,
+    "fat": 12
+  }
+}
